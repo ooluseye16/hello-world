@@ -19,8 +19,7 @@ jobs:
           command: "echo Hello,"
 
   say-world:
-    requires:
-      - say-hello
+    
     docker: 
       - image: circleci/node:13.8
 
